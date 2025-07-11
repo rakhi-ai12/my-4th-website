@@ -1,4 +1,236 @@
- <section class="contact">
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cool Dark UI Template</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #fff;
+      color: #000;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 40px;
+    }
+
+    header .logo {
+      color: #6c63ff;
+      font-weight: bold;
+      font-size: 20px;
+    }
+
+    header .btn {
+      background-color: #6c63ff;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+
+    .hero {
+      background-image: url(../Assets/hero-bg.png);
+      background-size: cover;
+      background-position: right center;
+      text-align: center;
+      padding: 80px 20px;
+    }
+
+    .hero h1 {
+      font-size: 36px;
+      font-weight: bold;
+    }
+    .text .btn{
+      background-color: deepskyblue;
+      
+    }
+
+    .hero .btn {
+      background-color: cyan;
+      margin-top: 20px;
+    }
+
+    .section {
+      padding: 60px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .section .text {
+      width: 50%;
+    }
+
+    .section .image {
+      width: 45%;
+    }
+
+    .stats {
+      text-align: center;
+      background-color: #f9f9f9;
+      padding: 60px 20px;
+    }
+    .stat1 {
+      color: blue;
+    }
+    .stat2 {
+      color: blue;
+    }
+    .stat3{
+      color: blue;
+    
+    }
+
+    .stats h2 {
+      margin-bottom: 40px;
+    }
+
+    .stat-box {
+      display: flex;
+      justify-content: center;
+      gap: 60px;
+    }
+
+    .stat {
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .testimonials {
+      padding: 60px 20px;
+      background-color: #fff;
+      text-align: center;
+    }
+
+    .reviews {
+      gap: 5px;
+      display: flex;
+      justify-content: space-around;
+      margin-top: 0px;
+      flex-wrap: wrap;
+    }
+  
+
+    .review {
+      width: 300px;
+      padding: 20px;
+      border-radius: 8px;
+      background-color: #f0f0f0;
+      margin: 0;
+    }
+
+    .contact {
+      padding: 60px 20px;
+      background-color: #f9f9f9;
+      text-align: center;
+    }
+
+    .contact form {
+      max-width: 400px;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .contact input, .contact textarea {
+      padding: 10px;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+    }
+
+    .contact button {
+      background-color: #6c63ff;
+      color: white;
+      border: none;
+      padding: 12px;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+
+    footer {
+      background-color: #fff;
+      text-align: center;
+      padding: 40px 20px;
+      color: #6c63ff;
+    }
+
+    .menu {
+      text-align: center;
+
+    }
+    
+    
+    
+    
+   
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">LOGO</div>
+    <button class="btn">Sign Up</button>
+  </header>
+
+  <section class="hero">
+    <h1>Cool Dark UI Template for <br> Webflow Agencies!</h1>
+    <button class="btn">Stay Focused</button>
+  </section>
+
+  <section class="section">
+    <div class="text">
+      <h2>See It in Action</h2>
+      <p>Explore the live preview and imagine your brand in this bold new look.</p>
+      <button class="btn">Launch Live Preview</button>
+    </div>
+    <div class="image">
+      <img src="Assets/wc-mini.png" alt="image ta age aschilo but akon astece na ami onk try korchi partechi na image gula ase na" style="width:100%; border-radius: 12px;">
+    </div>
+  </section>
+
+  <section class="stats">
+    <h2>Joined Thousands of Productive Users</h2>
+    <div class="stat-box">
+      <div class="stat1">50K<br><span style="font-size: 16px;">Active Users</span></div>
+      <div class="stat2">2M+<br><span style="font-size: 16px;">Focus Sessions</span></div>
+      <div class="stat3">95%<br><span style="font-size: 16px;">Satisfaction Rate</span></div>
+    </div>
+  </section>
+
+  <section class="testimonials">
+    <h2>What our users say</h2>
+    <div class="reviews">
+      <div class="review">
+        ⭐⭐⭐⭐⭐<br>
+        <strong>Loved by Designers</strong><br>
+        This template instantly leveled up our presence – Studio Vertige<br>
+        <small>Reviewer name</small>
+      </div>
+      <div class="review">
+        ⭐⭐⭐⭐⭐<br>
+        <strong>Loved by Designers</strong><br>
+        This template instantly leveled up our presence – Studio Vertige<br>
+        <small>Reviewer name</small>
+      </div>
+      <div class="review">
+        ⭐⭐⭐⭐⭐<br>
+        <strong>Loved by Designers</strong><br>
+        This template instantly leveled up our presence – Studio Vertige<br>
+        <small>Reviewer name</small>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact">
     <h2>Let's Get in Touch</h2>
     <form>
       <input type="email" placeholder="example@email.com" required>
