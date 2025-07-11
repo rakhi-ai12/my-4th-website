@@ -1,11 +1,150 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>my new website</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dark UI Template</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f7f7f7;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 50px 30px;
+      border-left: 12px solid #000;
+      border-right: 12px solid #000;
+      background-color: #ffffff;
+      min-height: 100vh;
+    }
+
+    .top-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-weight: bold;
+      font-size: 24px;
+      color: #5C33FF; /* blueish-purple logo */
+    }
+
+    .button {
+      background-color: #6C4DFF; /* vivid purple */
+      color: white;
+      padding: 10px 22px;
+      font-size: 15px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    .button:hover {
+      background-color: #5733ff;
+    }
+
+    .hero {
+      text-align: center;
+      margin-top: 60px;
+    }
+
+    .hero h1 {
+      font-size: 32px;
+      color: #222;
+    }
+
+    .launch-btn {
+      margin-top: 10px;
+      font-size: 15px;
+      background-color: #5C33FF;
+      padding: 10px 18px;
+      border-radius: 6px;
+    }
+
+    .section {
+      margin-top: 40px;
+      text-align: center;
+    }
+
+    .section h3 {
+      font-size: 20px;
+      color: #333;
+    }
+
+    .section p {
+      font-size: 14px;
+      color: #666;
+      margin-bottom: 10px;
+    }
+
+    .preview-img {
+      display: block;
+      margin: 25px auto;
+      max-width: 320px;
+      border-radius: 20px;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    .stats {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 60px;
+      background: #f2f2ff;
+      padding: 30px;
+      border-radius: 12px;
+    }
+
+    .stat {
+      text-align: center;
+      color: #5c33ff;
+      font-size: 24px;
+    }
+
+    .stat small {
+      display: block;
+      color: #333;
+      font-size: 14px;
+      margin-top: 5px;
+    }
+  </style>
 </head>
 <body>
-    
+  <div class="container">
+    <div class="top-bar">
+      <div class="logo">LOGO</div>
+      <button class="button">Sign Up</button>
+    </div>
+
+    <div class="hero">
+      <h1>Cool Dark UI Template for<br>Webflow Agencies!</h1>
+      <button class="button" style="margin-top: 20px;">Buy Template</button>
+    </div>
+
+    <div class="section">
+      <h3>See It in Action</h3>
+      <p>Explore the live preview and experience the full layout.</p>
+      <button class="launch-btn">Launch Live Preview</button>
+      <img src="https://via.placeholder.com/300x200.png?text=Webflow+Conf+2022" alt="Webflow Conf 2022" class="preview-img" />
+    </div>
+
+    <div class="stats">
+      <div class="stat">
+        50K<br><small>Active Users</small>
+      </div>
+      <div class="stat">
+        2M+<br><small>Pages Visited</small>
+      </div>
+      <div class="stat">
+        95%<br><small>Satisfaction</small>
+      </div>
+    </div>
+  </div>
 </body>
-</html>git
+</html>
